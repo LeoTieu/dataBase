@@ -71,5 +71,6 @@ namespace MyPhoneBook
             // Stänger databasen.
             conn.Close();
         }
+
     }
 }

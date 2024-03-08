@@ -42,6 +42,7 @@ namespace MyPhoneBook
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -163,12 +164,22 @@ namespace MyPhoneBook
             this.label5.TabIndex = 18;
             this.label5.Text = "         ";
             // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.SystemColors.Info;
+            this.label6.Location = new System.Drawing.Point(846, 91);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(161, 60);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Delete searches for first name and last name";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1020, 579);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.ButtonDelete);
             this.Controls.Add(this.dataGridView1);
@@ -205,6 +216,7 @@ namespace MyPhoneBook
         private System.Windows.Forms.Button ButtonDelete;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
